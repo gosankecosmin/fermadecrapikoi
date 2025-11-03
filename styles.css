@@ -60,3 +60,4 @@ input,textarea,button{padding:10px;border:1px solid #ddd;border-radius:8px}
 }
 #koi figure{ display:flex; flex-direction:column; gap:8px; }
 #koi figcaption{ font-size:14px; color:#333; }
+#koi{ scroll-margin-top:80px; }
