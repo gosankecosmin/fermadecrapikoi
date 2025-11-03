@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Site-ul meu</title>
+  <link rel="icon" href="img/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <img src="img/logo.svg" alt="Logo" class="logo">
+      <strong>Site-ul meu</strong>
+      <nav>
+        <a href="#acasa">Acasă</a>
+        <a href="#servicii">Servicii</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="acasa" class="hero card">
+      <h1>Bun venit!</h1>
+      <p>Acesta este un starter mic pentru un site static.</p>
+      <button id="buton">Apasă-mă</button>
+      <p id="status" class="muted"></p>
+    </section>
+
+    <section id="servicii" class="card">
+      <h2>Servicii</h2>
+      <ul>
+        <li>Serviciul 1</li>
+        <li>Serviciul 2</li>
+        <li>Serviciul 3</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <form id="form" autocomplete="on">
+        <div class="form-grid">
+          <input name="nume" placeholder="Nume" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="mesaj" placeholder="Mesaj" required></textarea>
+          <button type="submit">Trimite</button>
+          <p id="form-status" class="muted"></p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <small>© 2025 • Site-ul meu • <a href="privacy.html">Politica de confidențialitate</a></small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
